@@ -1,0 +1,56 @@
+{
+  "name": "nft-bht-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^3.6.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "aos": "^2.3.4",
+    "assert": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.6.1",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
+    "npm": "^7.24.1",
+    "react": "^17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^3.0.1",
+    "react-scroll": "^1.8.4",
+    "react-social-icons": "^5.7.0",
+    "scrollreveal": "^4.0.9",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.1.2",
+    "web3": "^1.6.0",
+    "web3modal": "^1.9.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
