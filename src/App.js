@@ -1690,7 +1690,7 @@ class Home extends Component {
 
 							<div class="in2">
 								<div class="intro">
-									하이드미플리즈 3차 NFT
+									하이드미플리즈 <br /> 3차 NFT
 								</div>
 
 								{/* <div class="intro2">
