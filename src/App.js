@@ -706,7 +706,7 @@ class Home extends Component {
 		nftMintingAmount: '1',
 		totalValue: "",
 		maxmint: '',
-		_publicMintMsg: 'Mint Here',
+		_publicMintMsg: 'Mint Now',
 		_cost: 0,
 		_maxMintAmountPerTx: '',
 		_owner: ''
@@ -1689,12 +1689,12 @@ class Home extends Component {
 
 							<div class="in2">
 								<div class="intro">
-									HIDE ME PLEASE
+									하이드미플리즈 3차 NFT
 								</div>
 
-								<div class="intro2">
+								{/* <div class="intro2">
 									Welcome to the home of HIDE ME PLEASE. Discover the best items in this collection.!
-								</div>
+								</div> */}
 
 								<div class="nftblockWalletConnectedALL">
 									{this.state.walletAddress === '' ? (
