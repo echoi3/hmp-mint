@@ -720,7 +720,7 @@ class Home extends Component {
 				walletconnect: {
 					package: WalletConnectProvider, // required
 					options: {
-						infuraId: "811915bee3744bd38afcf17ecac0f9a6" // required
+						infuraId: "811915bee3744bd38afcf17ecac0f9a6" // required 
 					}
 				},
 				coinbasewallet: {
@@ -788,6 +788,7 @@ class Home extends Component {
 
 					//	(async () => {
 
+					// when Metamask
 					if (web3Modal.cachedProvider != "walletconnect" && web3Modal.cachedProvider != "coinbasewallet") {
 
 						const chainId = 1;
