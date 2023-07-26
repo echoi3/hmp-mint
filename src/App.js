@@ -1715,7 +1715,7 @@ class Home extends Component {
 								</div>) : (
 
 									(<div class="mintDiv">
-										<div class="totalSupply">{this.state.totalSupply} / 10000</div>
+										<div class="totalSupply">{this.state.totalSupply} / 500</div>
 										{this.state._maxMintAmountPerTx == this.state.myNFTWallet ?
 
 											(<div class="price"><div>Limit Reached!</div></div>) :
