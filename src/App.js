@@ -706,7 +706,7 @@ class Home extends Component {
 		nftMintingAmount: '1',
 		totalValue: "",
 		maxmint: '',
-		_publicMintMsg: 'Mint Here',
+		_publicMintMsg: 'Mint Now',
 		_cost: 0,
 		_maxMintAmountPerTx: '',
 		_owner: ''
@@ -720,7 +720,7 @@ class Home extends Component {
 				walletconnect: {
 					package: WalletConnectProvider, // required
 					options: {
-						infuraId: "811915bee3744bd38afcf17ecac0f9a6" // required
+						infuraId: "811915bee3744bd38afcf17ecac0f9a6" // required 
 					}
 				},
 				coinbasewallet: {
@@ -788,6 +788,7 @@ class Home extends Component {
 
 					//	(async () => {
 
+					// when Metamask
 					if (web3Modal.cachedProvider != "walletconnect" && web3Modal.cachedProvider != "coinbasewallet") {
 
 						const chainId = 1;
@@ -1689,12 +1690,12 @@ class Home extends Component {
 
 							<div class="in2">
 								<div class="intro">
-									HIDE ME PLEASE
+									하이드미플리즈 3차 NFT
 								</div>
 
-								<div class="intro2">
+								{/* <div class="intro2">
 									Welcome to the home of HIDE ME PLEASE. Discover the best items in this collection.!
-								</div>
+								</div> */}
 
 								<div class="nftblockWalletConnectedALL">
 									{this.state.walletAddress === '' ? (
